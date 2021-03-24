@@ -1,4 +1,4 @@
-<!-- This should be the location of the title of the repository, normally the short name -->
+ESP32 examples for Maximo Application Suite connectivity
 # repo-template
 
 <!-- Build Status, is a great thing to have at the top of your repository, it shows that you take your CI/CD as first class citizens -->
@@ -7,7 +7,11 @@
 <!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
 ## Scope
 
-The purpose of this project is to provide a template for new open source repositories.
+This project provides an accelerator to use ESP32-based device gateways with IBM Maximo Monitor.
+
+The project is divided into several sections:
+1. **`ESP32MaximoMonitorGateway`** contains an ESP32_IDF eclipse project, and requires ESP-IDF eclipse IDE. This is a working example of an ESP32 Watson IoT Platform gateway client. See [README.md](ESP32MaximoMonitorGateway\README.md)
+
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
@@ -24,14 +28,15 @@ This repository contains some example best practices for open source repositorie
 > These are optional
 
 <!-- The following are OPTIONAL, but strongly suggested to have in your repository. -->
+<!--
 * [dco.yml](.github/dco.yml) - This enables DCO bot for you, please take a look https://github.com/probot/dco for more details.
 * [travis.yml](.travis.yml) - This is a example `.travis.yml`, please take a look https://docs.travis-ci.com/user/tutorial/ for more details.
 
 These may be copied into a new or existing project to make it easier for developers not on a project team to collaborate.
-
+-->
 <!-- A notes section is useful for anything that isn't covered in the Usage or Scope. Like what we have below. -->
 ## Notes
-
+<!--
 **NOTE: While this boilerplate project uses the Apache 2.0 license, when
 establishing a new repo using this template, please use the
 license that was approved for your project.**
@@ -40,6 +45,7 @@ license that was approved for your project.**
 When you set up a new repository that uses the Apache license, you should
 use the DCO to manage contributions. The DCO bot will help enforce that.
 Please contact one of the IBM GH Org stewards.**
+-->
 
 <!-- Questions can be useful but optional, this gives you a place to say, "This is how to contact this project maintainers or create PRs -->
 If you have any questions or issues you can create a new [issue here][issues].
@@ -63,7 +69,7 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 
 ```text
 #
-# Copyright 2020- IBM Inc. All rights reserved
+# Copyright 2021- IBM Inc. All rights reserved
 # SPDX-License-Identifier: Apache2.0
 #
 ```

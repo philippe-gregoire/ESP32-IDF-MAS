@@ -2,9 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [Unreleased] - 2021-03-23
+- Creation from IBM boilerplate template
 
-## [0.0.1] - 2019-02-15
+## [Unreleased] - 2021-03-24
+- First draft of ESP32 WIoTP GW client
 
 ### Added
 - Added a changelog
